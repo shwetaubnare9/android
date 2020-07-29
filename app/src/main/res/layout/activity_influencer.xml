@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    tools:context=".Influencer">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ADGRAM"
+        android:textSize="140px"
+        android:textStyle="italic"
+        android:textColor="@color/colorPrimaryDark"
+        tools:layout_editor_absoluteX="96dp"
+        tools:layout_editor_absoluteY="106dp" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="246dp" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="******"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="363dp" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Log in"
+        tools:layout_editor_absoluteX="152dp"
+        tools:layout_editor_absoluteY="450dp" />
+
+    <Button
+        android:id="@+id/signup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        tools:layout_editor_absoluteX="152dp"
+        tools:layout_editor_absoluteY="528dp" />
+
+    <CheckedTextView
+        android:id="@+id/checkedTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forgot Password"
+        tools:layout_editor_absoluteX="143dp"
+        tools:layout_editor_absoluteY="616dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
